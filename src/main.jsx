@@ -4,6 +4,7 @@ import App from "./App";
 import "./index.css";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import axios from "axios";
 
 axios.defaults.baseURL =
   process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://plantcareapp.onrender.com";
